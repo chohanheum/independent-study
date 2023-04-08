@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+char *cPtr1;          // char형 포인터 선언
+*cPtr1 = 'a';         // char의 크기 1바이트만큼 역참조하여 값을 저장
+
+short *numPtr1;       // short형 포인터 선언
+*numPtr1 = 100;       // short의 크기 2바이트만큼 역참조하여 값을 저장
+
+int *numPtr2;         // int형 포인터 선언
+*numPtr2 = 100;       // int의 크기 4바이트만큼 역참조하여 값을 저장
+
+long long *numPtr3;   // long long형 포인터 선언
+*numPtr3 = 100;       // long long의 크기 8바이트만큼 역참조하여 값을 저장
+
+return 0;
+}
